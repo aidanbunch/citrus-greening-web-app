@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1-44nsSzwu6oiAe0OomGr9xf1q0a9BUPO?alt=media&key=AIzaSyB94gPlmwrHwHTaUgg10LQ57L2qT7pypqU'
-export_file_name = 'export.pkl'
+export_file_name = 'citrus-classification-stage-2.pth'
 
 classes = ['diseased_citrus_trees', 'healthy_citrus_trees']
 path = Path(__file__).parent
