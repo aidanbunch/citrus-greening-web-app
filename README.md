@@ -1,15 +1,8 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# Citrus Greening Web Application
+This repository contains a web application that uses machine learning to classify citrus trees as diseased or healthy. The machine learning model was trained using transfer learning and the FastAI library and deployed using their template. The backend of the application is written in Python, while the frontend uses typical HTML/JavaScript. This project is a testament to my early interest in machine learning and was completed during my freshman year of high school.
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+## Getting Started
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
-
-You can test your changes locally by installing Docker and using the following command:
-
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
-
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+1. Clone the repository to your local machine.
+2. Ensure that you have Docker installed.
+3. Run this command in your terminal: `docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3`
